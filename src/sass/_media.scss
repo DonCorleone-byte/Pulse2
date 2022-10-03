@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 761px) {
+    .title {
+        font-size: 20px;
+}
     .container {
         max-width: 480px;
     }
@@ -108,9 +111,6 @@
     .advantages {
         min-height: 400px;
         padding: 25px 0 20px 0;
-        &__title {
-            font-size: 20px;
-        }
         &__wrapper {
             display: block;
             margin: 0 auto;
@@ -136,6 +136,85 @@
 }
 
 @media (max-width: 575px) {
+    .container {
+        max-width: 305px;
+    }
+    .header {
+        &__logo {
+            width: 110px;
+        }
+        &__official {
+            font-size: 7px;
+            span {
+                font-size: 10px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .button {
+        width: 95px;
+        height: 20px;
+        font-size: 7px;
+        &_main {
+            width: 85px;
+            margin-top: 15px;
+            font-size: 5px;
+            line-height: 0;
+        }
+        &_submit {
+            width: 100%;
+            height: 35px;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+    .promo {
+        min-height: 310px;
+        padding: 6px 0 20px 0;
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            margin-top: 0px;
+            font-size: 12px;
+        }
+        &__icons {
+            width: 200px;
+        }
+        &__icon {
+            width: 50px;
+            font-size: 8px;
+        }
+        &__link {
+            font-size: 7px;
+        }
+    }
 
+    .consultation {
+        min-height: 510px;
+        padding: 40px 0 40px 0;
+        &__descr {
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+    .title {
+        &_left {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+
+    .feed-form {
+        margin-top: 18px;
+        input {
+            height: 35px;
+        }
+    }
 }
 
