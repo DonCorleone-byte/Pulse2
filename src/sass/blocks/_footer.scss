@@ -1,6 +1,5 @@
 .footer {
     position: relative;
-    height: 630px;
     &__info {
         padding: 50px 53px 56px 54px;
         position: absolute;
@@ -45,4 +44,17 @@
         border-radius: 100%;
         margin: 0 15px;
     }
+    &__map {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        iframe {
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+     }
 }
