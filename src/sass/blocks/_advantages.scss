@@ -19,6 +19,9 @@
         font-weight: 700;
         font-size: 18px;
         color: #0D0D0D;
+        &_animated {
+            animation: heartbeat 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite;
+        }
         span {
             margin-top: 20px;
             font-weight: 300;
