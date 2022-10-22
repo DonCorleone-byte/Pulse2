@@ -22,7 +22,7 @@
         }
     }
     .container {
-        max-width: 710px;
+        max-width: 610px;
     }
     .header {
         &__logo {
@@ -176,6 +176,7 @@
             }
         }
     }
+
     .catalog {
         &__tabs {
             margin-top: 30px;
@@ -351,6 +352,16 @@
         margin-top: 18px;
         input {
             height: 35px;
+            width: 256px;
+        }
+        button {
+            width: 85%;
+        }
+    }
+    .overlay {
+        .modal {
+            min-height: 310px;
+            width: 308px;
         }
     }
 }
