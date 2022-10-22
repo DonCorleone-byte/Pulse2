@@ -366,3 +366,69 @@
     }
 }
 
+@media (max-width: 424px) {
+    .container {
+        max-width: 380px;
+    }
+    .consultation {
+        min-height: 405px;
+        padding: 40px 0;
+        .feed-form {
+            width: 260px;
+        }
+    }
+    .carousel {
+        .prev {
+            left: -5%;
+        }
+        .next {
+            right: -5%;
+        }
+    }
+    .pageup {
+        right: 8px;
+        width: 40px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 374px) {
+    .container {
+        max-width: 340px;
+    }
+    .overlay {
+        .modal {
+            width: 280px;
+        }
+        .feed-form {
+            margin-top: 18px;
+            input {
+                width: 230px;
+            }
+            button {
+                width: 76%;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 280px;
+    }
+    .overlay {
+        .modal {
+            width: 220px;
+        }
+        .feed-form {
+            margin-top: 18px;
+            input {
+                width: 170px;
+            }
+            button {
+                width: 56%;
+                font-size: 10px;
+            }
+        }
+    }
+}
